@@ -15,9 +15,10 @@
   "scripts": {
     "build": "webpack",
     "watch": "npm-watch",
-    "lint": "eslint src/**/*.js",
-    "stylelint": "stylelint src/*/*.css",
-    "dev": "webpack serve"
+    "lint.js": "eslint src/**/*.js",
+    "lint.css": "stylelint src/*/*.css",
+    "start": "webpack serve",
+    "dev": "npm run start && npm run watch"
   },
   "author": "jekos",
   "license": "ISC",
